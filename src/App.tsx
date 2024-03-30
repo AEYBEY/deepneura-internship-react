@@ -70,7 +70,7 @@ const MyComponent: React.FC = () => {
           </div>
         </div>
         <h3 className="self-start mt-12 ml-40 text-2xl font-semibold text-black max-md:mt-10 max-md:ml-2.5">
-          Insert Aadhaar & PAN Details
+        Aadhaar & PAN Details
         </h3>
         <div className="mt-4 w-full max-w-[1114px] max-md:max-w-full">
           <div className="flex gap-5 max-md:flex-col max-md:gap-0">
