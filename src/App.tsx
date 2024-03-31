@@ -48,7 +48,7 @@ const MyComponent: React.FC = () => {
             <div className="flex flex-col w-[54%] max-md:ml-0 max-md:w-full">
               <div className="flex flex-col grow max-md:mt-10 max-md:max-w-full">
                 <InputField label="First Name" />
-                <InputField label="Email ID" className="mt-8" />
+                <InputField label="Last Name" className="mt-8" />
                 <div className="relative">
                 <InputField label="DOB" className="mt-8"   />
                 <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/d7c34fe463ee355638e4c0cdb99534742164a142b7aab9c4be0f44bbed658d2b?apiKey=e4d452f99242495d95127baf3bbbb809&" alt="" className="w-10 aspect-square" />
@@ -62,7 +62,7 @@ const MyComponent: React.FC = () => {
             </div>
             <div className="flex flex-col ml-5 w-[46%] max-md:ml-0 max-md:w-full">
               <div className="flex flex-col grow text-lg text-center text-neutral-500 max-md:mt-10 max-md:max-w-full">
-                <InputField label="Last Name" />
+                <InputField label="Email" />
                 <InputField label="Phone" className="mt-8" />
                 <InputField label="Gender" className="mt-8" />
               </div>
