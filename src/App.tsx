@@ -49,11 +49,12 @@ const MyComponent: React.FC = () => {
               <div className="flex flex-col grow max-md:mt-10 max-md:max-w-full">
                 <InputField label="First Name" />
                 <InputField label="Last Name" className="mt-8" />
-                <div className="relative">
+                 {/* <div className="relative">
                 <InputField label="DOB" className="mt-8"   />
                 <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/d7c34fe463ee355638e4c0cdb99534742164a142b7aab9c4be0f44bbed658d2b?apiKey=e4d452f99242495d95127baf3bbbb809&" alt="" className="w-10 aspect-square" />
-                </div>
-                <div className="relative">
+                </div> */}
+                <div className="relative flex flex-col mt-4">
+                <label className="text-lg text-center text-neutral-500 max-md:max-w-full">DOB</label>
         <input type="text" className="pl-4 pr-10 py-2 w-full rounded-md border focus:outline-none focus:ring-2 focus:ring-blue-500" />
         <FontAwesomeIcon icon={faCalendar} className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
       </div>
